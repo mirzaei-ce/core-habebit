@@ -1,0 +1,6 @@
+usr/local/bin/habebit-qt usr/bin
+share/pixmaps/habebit32.xpm usr/share/pixmaps
+share/pixmaps/habebit16.xpm usr/share/pixmaps
+share/pixmaps/habebit128.png usr/share/pixmaps
+debian/habebit-qt.desktop usr/share/applications
+debian/habebit-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,33 @@
+# /etc/conf.d/habebitd: config file for /etc/init.d/habebitd
+
+# Config file location
+#HABEBITD_CONFIGFILE="/etc/habebit/habebit.conf"
+
+# What directory to write pidfile to?  (created and owned by $HABEBITD_USER)
+#HABEBITD_PIDDIR="/var/run/habebitd"
+
+# What filename to give the pidfile
+#HABEBITD_PIDFILE="${HABEBITD_PIDDIR}/habebitd.pid"
+
+# Where to write habebitd data (be mindful that the blockchain is large)
+#HABEBITD_DATADIR="/var/lib/habebitd"
+
+# User and group to own habebitd process
+#HABEBITD_USER="habebit"
+#HABEBITD_GROUP="habebit"
+
+# Path to habebitd executable
+#HABEBITD_BIN="/usr/bin/habebitd"
+
+# Nice value to run habebitd under
+#HABEBITD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+HABEBITD_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for habebitd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+HABEBITD_SIGTERM_TIMEOUT=60

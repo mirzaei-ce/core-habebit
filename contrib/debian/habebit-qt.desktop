@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Habebit
+Comment=Habebit P2P Cryptocurrency
+Comment[fr]=Habebit, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Habebit, eşten eşe kriptografik sanal para birimi
+Exec=habebit-qt %u
+Terminal=false
+Type=Application
+Icon=habebit128
+MimeType=x-scheme-handler/habebit;
+Categories=Office;Finance;
